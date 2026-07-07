@@ -7,6 +7,7 @@ export function Hero() {
       <h1 className="text-4xl font-semibold tracking-tight">{profile.name}</h1>
       <p className="text-lg text-muted-foreground">{profile.title}</p>
       <p className="max-w-xl text-muted-foreground">{profile.bio}</p>
+      <p className="max-w-xl text-sm text-muted-foreground">{profile.hobbies}</p>
       <div className="flex items-center gap-4 mt-2">
         {profile.socials.map((social) => (
           <a

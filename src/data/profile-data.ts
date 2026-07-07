@@ -34,6 +34,7 @@ export interface Profile {
   name: string
   title: string
   bio: string
+  hobbies: string
   resumeUrl: string
   socials: SocialLink[]
   experience: Experience[]
@@ -45,6 +46,8 @@ export const profile: Profile = {
   name: 'Michael McComiskey',
   title: 'Senior Software Engineer at Wunderkind',
   bio: 'Senior Software Engineer specializing in scalable frontend architecture, robust design systems, and secure AI-data integrations. I focus on bridging the gap between complex engineering workflows and seamless, accessible user experiences.',
+  hobbies:
+    'Outside of work: playing Irish button accordion, throwing discs, and hiking.',
   resumeUrl:
     'https://docs.google.com/document/d/1BahiCTldV9POwIK5TvoOYkuUNUuMz-C_WL-KgiXsa1A/export?format=pdf',
   socials: [
