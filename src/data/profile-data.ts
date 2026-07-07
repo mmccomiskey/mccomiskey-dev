@@ -44,8 +44,8 @@ export interface Profile {
 
 export const profile: Profile = {
   name: 'Michael McComiskey',
-  title: 'Senior Software Engineer at Wunderkind',
-  bio: 'Senior Software Engineer specializing in scalable frontend architecture, robust design systems, and secure AI-data integrations. I focus on bridging the gap between complex engineering workflows and seamless, accessible user experiences.',
+  title: 'Senior Software Engineer',
+  bio: 'Specializes in scalable front end architecture, robust design systems, and secure AI-data integrations—focusing on bridging the gap between complex engineering workflows and seamless, accessible user experiences.',
   hobbies:
     'Outside of work: playing Irish button accordion, throwing discs, and hiking.',
   resumeUrl:
