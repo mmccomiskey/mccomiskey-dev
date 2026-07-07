@@ -53,6 +53,7 @@ export const profile: Profile = {
   socials: [
     { label: 'GitHub', url: 'https://github.com/mmccomiskey' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/michael-mccomiskey/' },
+    { label: 'Email', url: 'mailto:mikeyjmcc@gmail.com' },
   ],
   experience: [
     {
@@ -71,7 +72,7 @@ export const profile: Profile = {
           ],
         },
         {
-          role: 'Software Engineer, Frontend',
+          role: 'Software Engineer, Front End',
           startDate: 'Dec 2021',
           endDate: 'Jan 2023',
           bullets: [
@@ -88,7 +89,7 @@ export const profile: Profile = {
           role: 'Software Engineer',
           startDate: 'Mar 2019',
           endDate: 'Nov 2021',
-          bullets: ['Focused on front-end development using React'],
+          bullets: ['Focused on front end development using React'],
         },
         {
           role: 'Associate Software Engineer',
