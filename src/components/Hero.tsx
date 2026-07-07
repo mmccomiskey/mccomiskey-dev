@@ -21,8 +21,8 @@ export function Hero() {
         ))}
       </div>
       <Button asChild className="mt-2">
-        <a href={profile.resumeUrl} download>
-          Download resume
+        <a href={profile.resumeUrl} target="_blank" rel="noreferrer">
+          View resume
         </a>
       </Button>
     </section>
