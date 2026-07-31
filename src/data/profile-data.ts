@@ -53,7 +53,7 @@ export const profile: Profile = {
   socials: [
     { label: 'GitHub', url: 'https://github.com/mmccomiskey' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/michael-mccomiskey/' },
-    { label: 'Email', url: 'mailto:mikeyjmcc@gmail.com' },
+    { label: 'Email', url: 'mailto:michael@mccomiskey.dev' },
   ],
   experience: [
     {
