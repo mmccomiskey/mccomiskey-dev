@@ -1,0 +1,27 @@
+# Search and AI crawlers are welcome; this is a public portfolio.
+# Content-Signal: https://contentsignals.org/
+
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+
+# AI search crawlers: fetch pages that AI assistants cite in answers
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+
+# AI training crawlers
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+Sitemap: https://mccomiskey.dev/sitemap.xml
